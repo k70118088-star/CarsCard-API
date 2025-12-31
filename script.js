@@ -14,7 +14,7 @@ fetch("https://dummyjson.com/c/68a9-8ef6-4b20-a51c")
         <div class="car-info">
           <h3>${car.name}</h3>
           <p class="brand">${car.brand}</p>
-          <p class="rating">⭐ ${car.rating}</p>
+          <p class="rating">★ ${car.rating}</p>
           <p class="price">${car.price}</p>
         </div>
       `;
