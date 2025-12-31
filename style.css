@@ -14,12 +14,12 @@ h2 {
 
 .cars-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
 
 .car-card {
-  background: #22313f;
+  background: #34495e;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.4);
@@ -27,7 +27,7 @@ h2 {
 }
 
 .car-card:hover {
-  transform: scale(108%);
+  transform: scale(103%);
 }
 .car-card img {
   transition: transform 300ms ease-in-out;
